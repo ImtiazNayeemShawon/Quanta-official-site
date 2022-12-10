@@ -2,6 +2,14 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Team from "../public/robot.PNG";
+import Captainn from "../public/Captain.png";
+import Ironman from "../public/iron man.png";
+import Rick from "../public/rick jones.png";
+import Thor from "../public/thor.png";
+import Spiderman from "../public/Spiderman.png";
+import Service from "./Service";
+import Collab from "./Collab";
+
 
 export default function Home() {
   return (
@@ -12,14 +20,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        {/*first section....................................................................................................*/}
         <div className={styles.parent}>
           <div className="mt-44 ml-20 leading-9 max-sm:ml-3 text-center">
             <h1 className=" text-6xl font-bold uppercase text-black-800 max-sm:ml-0">
               Quanta robotics
             </h1>
-            <p className="text-right m-2 text-blue-500  font-bold max-sm:text-center ">
-              Born for innovation
-            </p>
           </div>
 
           <div>
@@ -41,31 +47,112 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <div className="section-2 grid grid-cols-2 max-sm:grid-cols-1">
+
+        {/*second section.............................................................................................*/}
+        <div className="section-2 grid grid-cols-2 max-sm:grid-cols-1 max-sm:place-items-center ">
           <div>
             {" "}
             <Image className="" src={Team} alt="Team" />
           </div>
 
           <div className="mt-20 grid grid-cols-2 max-sm:grid-cols-1 ">
-           
-            <div className="shadow-xl max-sm:shadow-md w-80 p-6 rounded shadow-indigo-500/50 h-44 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-left"> 
-            <h1 className="font-bold text-2xl uppercase text-blue-600">Quanta robotics </h1>
-            <p className="font-semibold text-sm">text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,  </p>
+            <div className="shadow-xl max-sm:shadow-md w-80 p-6 rounded shadow-indigo-500/50 h-44 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-left ">
+              <h1 className="font-bold text-2xl uppercase text-blue-600">
+               1. Robot Sina
+              </h1>
+              <p className="font-semibold text-sm">
+                <b> Robot Sina</b>. Four students of Comilla University have
+                created a humanoid robot. This robot named Sina can introduce
+                itself in English, shake hands and dance.
+              </p>
             </div>
 
-            <div className="shadow-xl  max-sm:shadow-md w-80 p-6 rounded shadow-indigo-500/50  h-44 mt-44 max-sm:mt-10 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-right"> 
-            <h1 className="font-bold text-2xl uppercase  text-blue-600">Quanta robotics </h1>
-            <p className="font-semibold text-sm">text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,  </p>
+            <div className="shadow-xl  max-sm:shadow-md w-80 p-6 rounded shadow-indigo-500/50   mt-44 max-sm:mt-10 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-right">
+              <h1 className="font-bold text-2xl uppercase  text-blue-600">
+                2. robot bluebarry{" "}
+              </h1>
+              <p className="font-semibold text-sm">
+                <b> Robot Blueberry . </b>For the second time, three students of
+                Comilla University made a humanoid robot. The robot is named
+                Blueberry and its skin color is blue. The robot uses raspberry
+                pie. As a result, it was named Blueberry reports Daily Jugantor.
+                The inventors claim that the robot collects corona samples,
+                talks, and warns if a gas line leaks or catches fire, reports{" "}
+              </p>
             </div>
 
-            <div className="shadow-xl w-80 p-6 rounded shadow-indigo-500/50  h-44 mt-4 max-sm:mt-10 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-left"> 
-            <h1 className="font-bold text-2xl uppercase  text-blue-600">Quanta robotics </h1>
-            <p className="font-semibold text-sm">text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,  </p>
+            <div className="shadow-xl w-80 p-6 rounded shadow-indigo-500/50   mt-4 max-sm:mt-10 max-sm:grid-cols-1 max-sm:w-96 max-sm:text-left">
+              <h1 className="font-bold text-2xl uppercase  text-blue-600">
+                3. Robot niko{" "}
+              </h1>
+              <p className="font-semibold text-sm">
+                <b> Robot Niko </b> The most advanced humanoid robot made by
+                Quanta Robotics. Science minded creative Comilla Deputy
+                Commissioner Mr. Md. Kamrul Under the initiative of Hasan Sir,
+                with the financial assistance of Comilla District Administration
+                and Comilla district in a year long effort by Quanta Robotics
+                Nico the robot has been created in the administration's fablab.
+                Our quant The efforts of the robotics team have paid off.{" "}
+              </p>
             </div>
           </div>
         </div>
+        {/*third section.............................................................................................*/}
+        <h1
+          className="text-center mt-10 text-4xl uppercase font-bold text-green-600 
+        max-sm:text-3xl"
+        >
+          Digital super heros
+        </h1>
+        <div className="Section-3 grid grid-cols-4 mt-10 place-items-center max-sm:grid-cols-1 text-center">
+          <div className="w-80 shadow-xl  shadow-indigo-500/50  rounded-lg m-2  grid place-items-center  p-10 max-sm:shadow-md max-sm:mt-10">
+            <Image alt="The captain" src={Captainn} width={200} height={200} />
+            <h1 className="text-lg font-sans uppercase font-bold">
+              Captain America
+            </h1>
+            <h2 className="text-md font-semibold text-blue-600">
+              Shanjit Mondol
+            </h2>
+            <h3 className="font-semibold">Founder and CEO </h3>
+          </div>
+          <div className="w-80 shadow-xl  shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-10  max-sm:shadow-md max-sm:mt-10">
+            <Image alt="Ironman " src={Ironman} width={200} height={200} />
+            <h1 className="text-lg font-sans uppercase font-bold">Iron man </h1>
+            <h2 className="text-md font-semibold text-blue-600">Jewel Nath</h2>
+            <h3 className="font-semibold">Senior programmer</h3>
+          </div>
+          <div className="w-80 shadow-xl   shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-10 max-sm:shadow-md max-sm:mt-10">
+            <Image alt="Rick jones" src={Rick} width={220} height={210} />
+            <h1 className="text-lg font-sans uppercase font-bold">
+              Rick jones
+            </h1>
+            <h2 className="text-md font-semibold text-blue-500">
+              Anik Chakraborty
+            </h2>
+            <h3 className="font-semibold">Null</h3>
+          </div>
+          <div className="w-80   shadow-xl  shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-20 max-sm:shadow-md max-sm:mt-10">
+            <Image alt="Thor" src={Thor} width={200} height={230} />
+            <h1 className="text-lg font-sans uppercase font-bold">Thor</h1>
+            <h2 className="text-md font-semibold text-blue-600">
+              Tousif Bin Parves
+            </h2>
+            <h3 className="font-semibold">Null</h3>
+          </div>
+          <div className="w-80 shadow-xl   shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-10 max-sm:shadow-md max-sm:mt-10">
+            <Image alt="spiderman" src={Spiderman} width={200} height={200} />
+            <h1 className="text-lg font-sans uppercase font-bold">
+              Spider man{" "}
+            </h1>
+            <h2 className="text-md font-semibold text-blue-500">
+              Imtiaz Nayeem shawon
+            </h2>
+            <h3 className="font-semibold">Web & android developer</h3>
+          </div>
+        </div>
       </div>
+      <Collab/>
+      <Service/>
     </div>
   );
 }
