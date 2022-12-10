@@ -63,7 +63,7 @@ export default function Home() {
               <p className="font-semibold text-sm">
                 <b> Robot Sina</b>. Four students of Comilla University have
                 created a humanoid robot. This robot named Sina can introduce
-                itself in English, shake hands and dance.
+                itself in English shake hands and dance.
               </p>
             </div>
 
@@ -72,12 +72,12 @@ export default function Home() {
                 2. robot bluebarry{" "}
               </h1>
               <p className="font-semibold text-sm">
-                <b> Robot Blueberry . </b>For the second time, three students of
+                <b> Robot Blueberry . </b>For the second time three students of
                 Comilla University made a humanoid robot. The robot is named
                 Blueberry and its skin color is blue. The robot uses raspberry
-                pie. As a result, it was named Blueberry reports Daily Jugantor.
-                The inventors claim that the robot collects corona samples,
-                talks, and warns if a gas line leaks or catches fire, reports{" "}
+                pie. As a result it was named Blueberry reports Daily Jugantor.
+                The inventors claim that the robot collects corona samples
+                talks and warns if a gas line leaks or catches fire reports{" "}
               </p>
             </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
                 Commissioner Mr. Md. Kamrul Under the initiative of Hasan Sir,
                 with the financial assistance of Comilla District Administration
                 and Comilla district in a year long effort by Quanta Robotics
-                Nico the robot has been created in the administration's fablab.
+                Nico the robot has been created in the administrations fablab.
                 Our quant The efforts of the robotics team have paid off.{" "}
               </p>
             </div>
