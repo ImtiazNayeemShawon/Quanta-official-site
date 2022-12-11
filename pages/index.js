@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import Team from "../public/robot.png";
+import Intro from "../public/Intro.png";
 import Captainn from "../public/Captain.png";
 import Ironman from "../public/iron man.png";
 import Rick from "../public/rick jones.png";
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="section-2 grid grid-cols-2 max-sm:grid-cols-1 max-sm:place-items-center ">
           <div>
             {" "}
-            <Image className="" src={Team} alt="Team" />
+            <Image className="" src={Intro} alt="Intro robot" />
           </div>
 
           <div className="mt-20 grid grid-cols-2 max-sm:grid-cols-1 ">
