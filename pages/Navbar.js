@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import Logo from "../public/logo.jpg";
+import Logo from "../public/logo.png";
 
 export default function Navbar() {
   const [alert, setAlert] = useState(false);

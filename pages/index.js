@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import Team from "../public/robot.PNG";
+import Team from "../public/robot.png";
 import Captainn from "../public/Captain.png";
 import Ironman from "../public/iron man.png";
 import Rick from "../public/rick jones.png";
@@ -131,14 +131,7 @@ export default function Home() {
             </h2>
             <h3 className="font-semibold">Null</h3>
           </div>
-          <div className="w-80   shadow-xl  shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-20 max-sm:shadow-md max-sm:mt-10">
-            <Image alt="Thor" src={Thor} width={200} height={230} />
-            <h1 className="text-lg font-sans uppercase font-bold">Thor</h1>
-            <h2 className="text-md font-semibold text-blue-600">
-              Tousif Bin Parves
-            </h2>
-            <h3 className="font-semibold">Null</h3>
-          </div>
+         
           <div className="w-80 shadow-xl   shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-10 max-sm:shadow-md max-sm:mt-10">
             <Image alt="spiderman" src={Spiderman} width={200} height={200} />
             <h1 className="text-lg font-sans uppercase font-bold">
@@ -148,6 +141,14 @@ export default function Home() {
               Imtiaz Nayeem shawon
             </h2>
             <h3 className="font-semibold">Web & android developer</h3>
+          </div>
+          <div className="w-80   shadow-xl  shadow-indigo-500/50  rounded-lg m-2  grid place-items-center p-20 max-sm:shadow-md max-sm:mt-10">
+            <Image alt="Thor" src={Thor} width={300} height={300} />
+            <h1 className="text-lg font-sans uppercase font-bold">Thor</h1>
+            <h2 className="text-md font-semibold text-blue-600">
+              Tousif Bin Parves
+            </h2>
+            <h3 className="font-semibold">Null</h3>
           </div>
         </div>
       </div>
